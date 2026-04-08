@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aesthetic Code Rules"
+  short_description: "Apply a strict premium visual system for polished UI work."
+  default_prompt: "Use $aesthetic-code-rules to refine this UI with stricter depth, color balance, spacing rhythm, motion, and typography rules."

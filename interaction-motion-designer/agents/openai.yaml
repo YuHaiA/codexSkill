@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interaction Motion Designer"
+  short_description: "Design purposeful UI motion for state changes and micro-interactions."
+  default_prompt: "Use $interaction-motion-designer to design purposeful hover, active, loading, success, and error motion for this UI."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Premium UI Polish"
+  short_description: "Apply premium shadows, motion, typography, and glass styling."
+  default_prompt: "Use $premium-ui-polish to refine this UI with layered shadows, subtle edge treatment, premium easing, typography tuning, and restrained glass effects."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adaptive Structure Architect"
+  short_description: "Design intrinsic responsive structures that evolve across screens."
+  default_prompt: "Use $adaptive-structure-architect to design a responsive component that evolves structurally from mobile to desktop."

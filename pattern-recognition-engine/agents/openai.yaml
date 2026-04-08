@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pattern Recognition Engine"
+  short_description: "Extract reusable design and component patterns from repeated code."
+  default_prompt: "Use $pattern-recognition-engine to turn these repeated UI patterns into a reusable component or styling system."

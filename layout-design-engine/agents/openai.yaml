@@ -1,0 +1,4 @@
+interface:
+  display_name: "Layout Design Engine"
+  short_description: "Generate semantic structure and balanced UI layouts from intent."
+  default_prompt: "Use $layout-design-engine to design this component from function, hierarchy, and reading flow instead of from a fixed template."

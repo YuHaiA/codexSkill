@@ -1,0 +1,4 @@
+interface:
+  display_name: "Advanced Color Synthesizer"
+  short_description: "Generate accessible semantic color systems from a seed color."
+  default_prompt: "Use $advanced-color-synthesizer with this brand seed color to build a semantic, contrast-safe UI palette."
