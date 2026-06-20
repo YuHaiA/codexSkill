@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vue 3 Admin CRUD"
+  short_description: "Build and refactor common Vue 3 admin CRUD flows."
+  default_prompt: "Use $vue3-admin-crud to build or refactor a Vue 3 admin CRUD page."

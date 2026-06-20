@@ -1,0 +1,4 @@
+interface:
+  display_name: "Session Memory"
+  short_description: "Extract durable project memory from sessions"
+  default_prompt: "Use $session-memory to extract durable project memory points from Codex sessions and write them into the project-level memory skill."

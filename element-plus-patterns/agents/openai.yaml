@@ -1,0 +1,4 @@
+interface:
+  display_name: "Element Plus Patterns"
+  short_description: "Apply robust Element Plus forms, tables, and dialog patterns."
+  default_prompt: "Use $element-plus-patterns to implement or refactor an Element Plus UI flow."

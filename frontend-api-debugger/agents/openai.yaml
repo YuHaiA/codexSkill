@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend API Debugger"
+  short_description: "Debug frontend request, auth, and payload integration issues."
+  default_prompt: "Use $frontend-api-debugger to diagnose a frontend API integration issue."

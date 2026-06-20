@@ -1,25 +1,33 @@
 # Codex 技能集合
 
-这个仓库收集了一组自定义 Codex 技能，主要用于界面设计、前端结构、动效、配色和视觉规范等场景。
+这个仓库同步了我当前全局 `~/.codex/skills` 目录中的自定义 Codex 技能，覆盖前端设计、交互、调试、自动化和工作流辅助等场景。
 
 ## 当前包含的技能
 
-- `frontend-skill`：用于设计有视觉张力的落地页、网站、应用、原型、演示页和游戏界面。
-- `premium-ui-polish`：用于提升界面质感，包括阴影层次、动效曲线、排版细节和玻璃质感等。
-- `advanced-color-synthesizer`：用于优化配色方案、颜色层级和对比关系。
-- `interaction-motion-designer`：用于优化动效语言、过渡效果和交互节奏。
-- `layout-design-engine`：用于优化版式结构、间距节奏和整体布局。
-- `adaptive-structure-architect`：用于设计响应式结构和信息层级。
-- `pattern-recognition-engine`：用于分析界面模式和系统一致性。
-- `aesthetic-code-rules`：用于约束更美观、更易维护的界面代码风格。
+- `adaptive-structure-architect`：响应式结构和信息层级设计。
+- `advanced-color-synthesizer`：配色系统、颜色层级和对比优化。
+- `aesthetic-code-rules`：界面代码风格和视觉实现约束。
+- `element-plus-patterns`：Vue 3 + Element Plus 常见业务流实现模式。
+- `frontend-api-debugger`：前端接口联调和请求链路排查。
+- `frontend-skill`：落地页、网站、应用、原型和游戏界面设计。
+- `interaction-motion-designer`：动效语言、过渡效果和交互节奏优化。
+- `layout-design-engine`：版式结构、间距节奏和整体布局设计。
+- `pattern-recognition-engine`：界面模式抽取和系统一致性分析。
+- `playwright`：浏览器自动化、页面流程调试和截图采集。
+- `premium-ui-polish`：界面质感、阴影层次、排版和细节打磨。
+- `screenshot`：系统级截图能力和相关脚本。
+- `session-memory`：会话知识沉淀和项目记忆提取。
+- `sora`：Sora 视频生成、编辑和批量工作流。
+- `vue3-admin-crud`：Vue 3 后台 CRUD 页面和管理流模板。
 
 ## 仓库结构
 
 每个技能都放在独立目录下，通常包含以下文件：
 
-- `SKILL.md`：技能的主要说明文档和使用指引。
+- `SKILL.md`：技能主说明和使用指引。
 - `agents/openai.yaml`：供兼容工具读取的技能元数据。
+- `references/`、`assets/`、`scripts/`：按技能需要提供的参考文档、资源和脚本。
 
-## 使用方式
+## 说明
 
-将需要的技能目录复制或安装到 Codex 的技能目录中，然后在合适的场景里通过技能名称进行调用。
+本地还存在一个空目录 `codex-primary-runtime`，因为没有实际文件，Git 不会追踪它，所以当前未纳入仓库。
