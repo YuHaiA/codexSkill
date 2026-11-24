@@ -10,6 +10,8 @@
 - `element-plus-patterns`：Vue 3 + Element Plus 常见业务流实现模式。
 - `frontend-api-debugger`：前端接口联调和请求链路排查。
 - `frontend-skill`：落地页、网站、应用、原型和游戏界面设计。
+- `design-taste-frontend`：品牌网站视觉方向、版式和内容表达设计。
+- `high-end-visual-design`：柔和、克制、精致的界面视觉与动效风格。
 - `interaction-motion-designer`：动效语言、过渡效果和交互节奏优化。
 - `layout-design-engine`：版式结构、间距节奏和整体布局设计。
 - `pattern-recognition-engine`：界面模式抽取和系统一致性分析。
