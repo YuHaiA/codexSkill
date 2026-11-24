@@ -35,6 +35,17 @@
 
 Only allow cleanup when:
 
-- the durable facts are already written to project memory
+- the durable facts are already written to project memory, **or**
+- the user explicitly says to skip memory writing and clean directly (e.g. 闲聊 / 不用写 / 直接清理)
+
+Also require:
+
 - the session is no longer the canonical source for active work
 - the session is older than the current working thread or clearly superseded
+- never archive the currently active thread
+
+## Cleanup constraints
+
+- Do **not** create backup files during cleanup.
+- No `*.bak*`, no `*.bak-clean-*`, no copied session trees “just in case”.
+- Prefer `codex archive`; fall back to state DB + projectless list updates without backups.
