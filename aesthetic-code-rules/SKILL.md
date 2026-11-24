@@ -1,6 +1,6 @@
 ---
 name: aesthetic-code-rules
-description: Use when the user wants a premium, high-end visual style with strict rules for depth, color balance, rhythm, motion, and typography. Best for UI beautification, visual refinement, design system polishing, and Chinese-first aesthetic direction.
+description: Use when the user explicitly wants a premium visual treatment or asks to refine visual depth, color balance, rhythm, motion, or typography. Apply as a context-sensitive style guide alongside the existing product design system.
 ---
 
 # Aesthetic Code Rules
@@ -30,7 +30,7 @@ Do not damage usability just to chase style.
 
 ## Spatial Depth
 
-- Elevated surfaces must use at least 3 shadow layers. Never use a single flat `box-shadow` for premium cards, dialogs, popovers, nav bars, or floating panels.
+- When elevation needs emphasis, use layered shadows as a starting point. Two or three soft layers can help, but use fewer or none when the interface's visual language calls for flatter surfaces.
 - Build shadows by increasing blur before increasing opacity.
 - Prefer light, airy separation over dark heavy blur blobs.
 - On dark or highlighted surfaces, add a subtle inner highlight such as `inset 0 1px 0 rgba(255,255,255,0.08)` to sharpen the edge.
@@ -61,7 +61,7 @@ Good direction:
 
 ## Rhythm And Grid
 
-- Default to an `8px` spacing rhythm for margin, padding, gaps, icon sizes, and control heights.
+- Follow the existing spacing scale. For new systems, an `8px` base rhythm is a useful starting point, with optical adjustments where needed.
 - Prefer `clamp()` for major outer spacing and fluid responsive spacing.
 - Related items must sit visibly closer to each other than to surrounding groups.
 - Avoid random one-off spacing values unless they are optical corrections with a clear reason.

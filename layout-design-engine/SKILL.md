@@ -1,6 +1,6 @@
 ---
 name: layout-design-engine
-description: Use when designing a component, page section, form, list, card cluster, dashboard area, or information layout from function and priority instead of from a fixed starter template. Generates semantic structure and balanced CSS Grid or Flex layouts.
+description: Use when choosing or reworking information hierarchy and layout structure is the main task, especially for a new section, form, list, or dashboard area. For routine implementation within an established layout, use frontend-ui-engineering.
 ---
 
 # Layout Design Engine

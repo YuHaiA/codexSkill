@@ -1,6 +1,6 @@
 ---
 name: premium-ui-polish
-description: Apply premium visual polish to cards, dialogs, overlays, nav bars, and motion-heavy UI. Use when refining interface quality, interaction feel, shadow depth, typography, glass surfaces, CSS styling systems, or frontend presentation details.
+description: Use for focused visual refinement of existing cards, dialogs, overlays, navigation, or motion-heavy components when the user asks for premium polish. For broader page structure or routine UI implementation, use the relevant implementation skill.
 ---
 
 # Premium UI Polish
@@ -11,18 +11,18 @@ Default goal: preserve the existing layout and business flow, but upgrade spatia
 
 ## Core Rules
 
-- Do not use a single `box-shadow` for elevated surfaces. Use layered shadows to simulate ambient light plus directional falloff.
+- When elevation needs emphasis, use layered shadows to suggest ambient light and directional falloff. Match the number and strength of layers to the existing interface.
 - Cards, dialogs, drawers, popovers, nav bars, and floating panels should have a subtle edge definition. Prefer a translucent `border` or an `inset` highlight.
 - Do not use `linear` or plain `ease` for hover, fade, scale, or panel transitions. Use a premium deceleration curve.
 - Headline typography should feel optically tightened. Body copy should feel breathable.
 - For glass or overlay surfaces, combine blur with a restrained translucent fill so the result feels dense rather than cheap.
 - Prefer polish that improves quality perception without adding visual noise.
 - Avoid absolute `#000000` and `#FFFFFF` on polished UI surfaces. Prefer softened neutrals and slightly tinted support backgrounds.
-- Keep polish aligned to an `8px` spacing rhythm unless a smaller optical correction is clearly justified.
+- Preserve the existing spacing scale. For new polish work, use its nearest spacing tokens and make optical corrections when needed.
 
 ## Physical Shadow Layering
 
-Every elevated container should use at least three shadow layers with different blur radii and opacities.
+Three shadow layers are one optional starting point for an elevated container. Use fewer layers or no shadow when that better matches the product's visual language.
 
 Use this pattern as the default starting point:
 
@@ -192,7 +192,7 @@ Recommended token starter:
 
 ## Rhythm And Grouping
 
-- Use an `8px` spacing grid for padding, margin, icon sizes, and control heights by default.
+- Follow the existing spacing scale for padding, margin, icon sizes, and control heights. Use an `8px` grid only as a starting point for new systems.
 - Prefer `clamp()` for responsive outer spacing on containers, dialogs, and section padding.
 - Respect proximity: spacing inside a semantic cluster should be clearly smaller than spacing between separate clusters.
 
@@ -210,7 +210,7 @@ Premium polish must still feel fast.
 
 Before finishing a polished UI task, verify:
 
-- Elevated surfaces use at least three shadow layers.
+- Layered shadows are an option for elevated surfaces, matched to the product's visual language.
 - Cards or dialogs have a subtle edge treatment.
 - Motion uses `cubic-bezier(0.23, 1, 0.32, 1)` or a clearly related premium deceleration curve.
 - Clickable elements have crisp physical feedback when the interaction pattern benefits from it.

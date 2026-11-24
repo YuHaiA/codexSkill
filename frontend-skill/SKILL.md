@@ -1,6 +1,6 @@
 ---
 name: frontend-skill
-description: Use when the task asks for a visually strong landing page, website, app, prototype, demo, or game UI. This skill enforces restrained composition, image-led hierarchy, cohesive content structure, and tasteful motion while avoiding generic cards, weak branding, and UI clutter.
+description: Use for new visual-first marketing pages, brand campaigns, portfolios, or art-directed prototypes where composition and imagery are central. Use frontend-ui-engineering for routine product UI, dashboards, and existing application views.
 ---
 
 # Frontend Skill
@@ -26,17 +26,17 @@ Each section gets one job, one dominant visual idea, and one primary takeaway or
 - Make the brand or product name the loudest text.
 - Keep copy short enough to scan in seconds.
 - Use whitespace, alignment, scale, cropping, and contrast before adding chrome.
-- Limit the system: two typefaces max, one accent color by default.
+- Keep the system restrained. Two typefaces and one accent color are useful starting points, not fixed limits.
 - Default to cardless layouts. Use sections, columns, dividers, lists, and media blocks instead.
 - Treat the first viewport as a poster, not a document.
 
 ## Aesthetic Systems
 
-Use these defaults unless the existing product language clearly overrides them:
+Use these as starting points for new visual-first work. Follow an existing product language or explicit brief when it differs:
 
 - Avoid absolute black `#000000` and absolute white `#FFFFFF`. Prefer softened near-neutrals such as `#111827` for dark text and slightly warm or cool off-whites for bright surfaces.
 - Neutral support surfaces should carry a faint tint from the page's primary hue so the whole interface breathes in one color family instead of falling back to dead gray.
-- Use an `8px` rhythm for spacing, icon sizing, and control heights. If a value breaks the rhythm, justify it.
+- Use the existing spacing rhythm when one exists. For a new system, an `8px` base can help establish consistency, with optical adjustments where needed.
 - Related child elements should sit noticeably closer to each other than to their parent section edges or neighboring groups.
 - Prefer `clamp()` for major spacing and type that need to scale smoothly between mobile and desktop.
 - Body copy should usually stay in the `1.5` to `1.7` line-height range.
@@ -60,7 +60,7 @@ Hero rules:
 
 - One composition only.
 - Full-bleed image or dominant visual plane.
-- Canonical full-bleed rule: on branded landing pages, the hero itself must run edge-to-edge with no inherited page gutters, framed container, or shared max-width; constrain only the inner text/action column.
+- Consider an edge-to-edge hero when the brand and content benefit from a full-bleed composition. Preserve intentional page gutters or framed layouts when they better serve the concept.
 - Brand first, headline second, body third, CTA fourth.
 - No hero cards, stat strips, logo clouds, pill soup, or floating dashboards by default.
 - Keep headlines to roughly 2-3 lines on desktop and readable in one glance on mobile.

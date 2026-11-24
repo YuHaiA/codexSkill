@@ -1,6 +1,6 @@
 ---
 name: session-memory
-description: Extract durable project memory from Codex sessions, convert it into project-level memory skills, and decide when old sessions can be archived or removed. Use when Codex sessions are growing large, when you want to preserve reusable project knowledge outside session history, or when you need to migrate stable facts, decisions, and conventions into a project-scoped memory skill.
+description: Extract durable facts from older Codex sessions and guide explicitly requested session cleanup. For loading or maintaining current project memory during project work, use project-memory.
 ---
 
 # Session Memory Maintainer
